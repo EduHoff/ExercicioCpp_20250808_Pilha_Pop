@@ -57,7 +57,7 @@ int main(){
 
     for (int i=11; i>=1; i--) {
         pilha_pop(pilha,&valorRetirado,&topo);
-        if (topo != -1 || valorRetirado != -1) {
+        if (valorRetirado != -1) {
             cout << "\nValor retirado: " << valorRetirado;
         }
         imprimir_vetor(pilha);
